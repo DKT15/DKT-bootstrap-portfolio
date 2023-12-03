@@ -1,1 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DKT Bootstrap Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="custom.css"/>
 
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid nav__container">
+        <a class="navbar-brand logo" href="#">Dante Kellman</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav__section" id="navbarNav">
+          <ul class="navbar-nav nav__wrapper">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#skills">Skills</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--JUMBOTRON-->
+
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3 hero__section">
+      <div class="container-fluid py-5 hero__wrapper">
+        <h1 class="display-5 fw-bold">My Portfolio</h1>
+        <p class="col-md-8 fs-4 hero__para">
+          Below is a portfolio of the projects I have completed to showcase the skills.
+        </p>
+        <button class="btn btn-primary btn-lg hero__button" type="button">
+          Find out more
+        </button>
+      </div>
+    </div>
+
+    <!--MY WORK-->
+<main>
+  <h2>Projects</h2>
+    <div class="container-fluid work__section">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card work__card" style="width: 18rem">
+            <img src="./assets/images/02-portfolio-4.jpg" class="card-img-top work_card--img" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Surf Report</h5>
+              <p class="card-text">
+                MERN stack
+              </p>
+              <a href="#" class="btn btn-primary card__btn">Click here</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card work__card" style="width: 18rem">
+            <img src="./assets/images/02-portfolio-1.jpg" class="card-img-top work_card--img" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">LED Wall</h5>
+              <p class="card-text">
+               Node/IoT
+              </p>
+              <a href="#" class="btn btn-primary card__btn">Click here</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card work__card" style="width: 18rem">
+            <img src="./assets/images/02-portfolio-2.jpg" class="card-img-top work_card--img" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Calculator</h5>
+              <p class="card-text">
+               Javascript/CSS
+              </p>
+              <a href="#" class="btn btn-primary card__btn">Click here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card work__card" style="width: 18rem">
+            <img src="./assets/images/02-portfolio-3.jpg" class="card-img-top work_card--img" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Pastel Puzzles</h5>
+              <p class="card-text">
+                MERN Stack
+              </p>
+              <a href="#" class="btn btn-primary card__btn">Click here</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card work__card" style="width: 18rem">
+            <img src="./assets/images/02-run-buddy.jpg" class="card-img-top work_card--img" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Run Buddy</h5>
+              <p class="card-text">
+                HTML/CSS
+              </p>
+              <a href="#" class="btn btn-primary card__btn">Click here</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card work__card" style="width: 18rem">
+            <img src="./assets/images/Portfolio-demo.jpg" class="card-img-top work_card--img" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Alternative Portfolio</h5>
+              <p class="card-text">
+                HTML/CSS
+              </p>
+              <a href="https://dkt15.github.io/Alternative-Portfolio/" class="btn btn-primary card__btn--portfolio">Click here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--MY SKILLS-->
+
+    <h2 id="skills">My Skills</h2>
+
+    <div class="accordion skills__section" id="accordionExample">
+      <div class="accordion-item skills__container">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            HTML
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            CSS
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            Javascript
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--ABOUT ME-->
+    <div class="about__section">
+    <div class="card mb-3" id="about" style="max-width: 540px">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./assets/images/download.jpg" class="img-fluid rounded-start about__img" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">About Me</h5>
+            <p class="card-text">
+              I want to make coding to be the next part of my career! I'm <b class="blue">experienced</b> and have demonstrated the ability to be a great <b
+              class="blue">problem solver.</b> I am able to code in HTML, CSS, Javascript and React.</p>
+            </p>
+            <p class="card-text">
+              <small class="text-body-secondary">Last updated 1 day ago</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--CONTACT-->
+
+    <div class="contact__container" id="contact">
+      <div class="social links">
+        <a class="links" href="https://github.com/DKT15">GitHub</a>
+        <a class="links" href="https://www.linkedin.com/in/dant%C3%A9-kellman-thompson-8b720720a/">LinkedIn</a>
+        <a class="links" id="twitter" href="">Twitter</a>
+        <a class="links" id="resume"  href="">Resume</a>
+      </div>
+    </div>
+  </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

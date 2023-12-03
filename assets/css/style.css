@@ -21,3 +21,122 @@ h5,
 h6 { /* Formats how all the h tags to have 0 margin on the website */
   margin: 0;
 }
+
+h1 {
+  color: aqua;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 16px;
+  color: rgb(64, 78, 124);
+}
+
+.blue {
+  color: rgb(64, 78, 124);
+}
+
+/* NAV BAR */
+
+.logo {
+  background-color: aqua;
+  margin: 16px 0;
+  padding: 16px 16px;
+}
+
+.nav__container {
+  background-color: rgb(64, 78, 124);
+  padding-bottom: 40px;
+}
+
+.nav__section {
+  display: flex;
+  justify-content: end;
+  margin: 0 40px;
+}
+
+.nav-link {
+  font-size: 24px;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  color: aqua !important;
+}
+
+/* HERO BANNER */
+
+.hero__section {
+  background-image: url(../images/02-hero-bg.jpg);
+}
+
+.hero__para {
+  color: aqua;
+}
+
+.hero__button {
+  cursor: not-allowed !important;
+}
+
+/* WORK */
+
+.work__section {
+  width: 1200px;
+}
+
+.work__card {
+  margin-bottom: 20px;
+
+}
+
+.work_card--img {
+  max-height: 160px;
+}
+
+.card__btn {
+  cursor: not-allowed;
+}
+
+/* SKILLS */
+
+.skills__section {
+  width: 100%;
+  padding: 0 250px;
+  margin-bottom: 32px;
+}
+
+/* ABOUT */
+
+.about__section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.about__img {
+  max-height: 230px;
+}
+
+/* CONTACT */
+
+.contact__container {
+  width: 100%;
+  background-color: rgb(64, 78, 124);
+  padding-top: 32px;
+  
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: aqua;
+}
+
+#twitter {
+  cursor: not-allowed;
+}
+
+#resume {
+  cursor: not-allowed;
+}
