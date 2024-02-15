@@ -10,7 +10,6 @@ I have used HTML, CSS Grids, CSS flexbox, media queries, and CSS variables.
 
 - [Technologies Used](#technology)
 - [Usage](#usage)
-- [Methodology](#methodology)
 - [Screenshot](#screenshot)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
