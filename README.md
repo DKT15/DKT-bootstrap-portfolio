@@ -32,7 +32,7 @@ The website is easy to use. It has 4 navigation links at the top: About, Project
 
 ## Deployment
 
-You can access the website with this link.(https://dkt15.github.io/DKT-bootstrap-portfolio/)
+You can access the website with this [link](https://dkt15.github.io/DKT-bootstrap-portfolio/)
 
 ## Contributing
 
