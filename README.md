@@ -2,28 +2,51 @@
 
 ## Description
 
-This project is a recreation of my alternative portfolio site. Here I have used Bootstrap code. I want to showcase the bootstrap skills I have learnt. This website can hold all of the web applications I build to show my capabilities if I choose to, but I already have another two portfolio websites. This project will hopefully enable me to standout to employers.
+This project is a recreation of my alternative portfolio site. Here I have used Bootstrap code. I want to showcase the bootstrap skills I have learnt. This website can hold all of the web applications I build to show my capabilities if I choose to, but I already have another three portfolio websites.
 
-Whilst doing this project, I have learnt about HTML, CSS Grids, CSS flexbox, media queries, and CSS variables. 
+I have used HTML, CSS Grids, CSS flexbox, media queries, and CSS variables.
 
-## Installation
+## Table of Contents
 
-Using the live link will enable you to use this application.
+- [Technologies Used](#technology)
+- [Usage](#usage)
+- [Methodology](#methodology)
+- [Screenshot](#screenshot)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [About Me](#aboutme)
+- [License](#license)
+
+## Technologies Used
+
+- HTML
+- CSS
+- Bootstrap
 
 ## Usage
 
 The website is easy to use. It has 4 navigation links at the top: About, Projects, Contact and Skills. All four links can be clicked and the website will scroll down to that specific section. In the Work section there are 6 projects. When clicking on the project, it will take you top that specific site. In the contact me section there are 4 options. My Resume, my social links which include Linkedin, GitHub and Twitter. Clicking on any of the three will take you to a new tab.
 
-Below is a screenshot of my portfolio:
+## Screenshot
 
-    ```md
-    ![This is an image of my portfolio.](assets/images/bootstrap-portfolio-demo.jpg)
-    ```
+![Bootstrap Portfolio Image.](/assets/images/bootstrap-portfolio-demo.jpg)
 
-## Credits
+## Deployment
 
-N/A
+You can access the website with this link.(https://dkt15.github.io/DKT-bootstrap-portfolio/)
+
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or improvement.
+3. Make changes and submit a pull request.
+
+## 🚀 About Me
+
+[Danté Kellman-Thompson](https://github.com/DKT15)
 
 ## License
 
-Please refer to the license in the repo.
+This project is licensed under the MIT License.
